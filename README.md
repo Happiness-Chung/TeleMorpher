@@ -57,7 +57,7 @@ YouTube & AI video generator ([Hailuo AI](https://artlist.io/ai/models/hailuo-ai
 2. Prepare inputs in the `sample_input` folder.
 3. Segment the protagonist from the background using a pre-trained segmentation model (e.g., SAM).
 4. Inpaint the background using any off-the-shelf inpainting model.
-5. Execute "Training-Free Pose Warping" for the protagonist's pose and location using the scripts in the `data_preparation` folder (can be executed in our Hugging Face Demo). 
+5. Execute "Training-Free Pose Warping" for the protagonist's pose and location using the scripts in the `data_preparation` folder (part of it can be executed in our Hugging Face Demo). 
 6. Train with `TeleMorphor(Extended_MotionEditor)/train/train_bg.py`.
 7. Train with `TeleMorphor(Extended_MotionEditor)/train/train_adaptor.py`.
 8. Get the edited protagonist result with `TeleMorphor(Extended_MotionEditor)/inference.py`.
@@ -94,7 +94,7 @@ To facilitate higher-quality motion-location editing, we have curated an evaluat
 | MasaCtrl                 |     0.514 |     0.097 |     0.566 |      0.428 |     0.123 |     27.94 |
 | MotionDirector           |     0.605 |     0.076 |     0.695 |      0.581 |     0.285 |     29.47 |
 | MotionEditor             |     0.310 |     0.146 |     0.668 |      0.252 |     0.094 |     29.29 |
-| **TeleMorpher (Ours)** | **0.289** | **0.099** | **0.655** | **≤0.001** | **0.074** | **30.01** |
+| **TeleMorpher (Proposed)** | **0.289** | **0.099** | **0.655** | **≤0.001** | **0.074** | **30.01** |
 
 ### 🔍 Qualitative Comparison (Human Evaluation)
 
@@ -106,7 +106,7 @@ To facilitate higher-quality motion-location editing, we have curated an evaluat
 | MotionDirector | 93.7% | 93.3% | 85.2% |
 | MotionEditor | 75.3% | 81.2% | 79.9% |
 
-LPIPS-S, LPIPS-N, LPIPS-T, and CLIP, and newly defined LPIPS-B, LPIPS-P are used for quantitative evaluation (left table). This work also conducted a user study (right table). The questions of the study were as follows: (1) Which video exhibits better alignment with the target motion? (M-A) (2) Which video better preserves the appearance of the source video? (AA) (3) Which video better aligns with the given text prompt? (T-A). A higher percentage represents the superiority of the results from our proposed method.
+LPIPS-S, LPIPS-N, LPIPS-T, and CLIP, and newly defined LPIPS-B and LPIPS-P are used for quantitative evaluation (left table). This work also conducted a user study (right table). The questions of the study were as follows: (1) Which video exhibits better alignment with the target motion? (M-A) (2) Which video better preserves the appearance of the source video? (AA) (3) Which video better aligns with the given text prompt? (T-A). A higher percentage represents the superiority of the results from our proposed method.
 
 ---
 
