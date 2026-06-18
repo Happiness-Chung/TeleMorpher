@@ -1,5 +1,5 @@
 # TeleMorpher
-## 🩰  Simultaneous Motion-Location Editing for In-the-Wild Videos
+## 🩰  Simultaneous Motion-Location Editing for In-The-Wild Videos
 
 [![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Demo-yellow)](https://huggingface.co/spaces/Haengb/TeleMorpher)
 <a href="https://drive.google.com/drive/folders/1rt38TtxN_BhU_oEaX3AOGvqoRQgo7jfc?usp=drive_link" target="_blank">
