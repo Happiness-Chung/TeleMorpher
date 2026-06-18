@@ -38,7 +38,7 @@
 
 ## Our Solution: TeleMorphor
 <p align="left">
-  <img src="Assets/schematic.png" width="100%">
+  <img src="Assets/Figure2.png" width="100%">
 </p>
 
 **Source of the Videos Used in This Study:** <br>
